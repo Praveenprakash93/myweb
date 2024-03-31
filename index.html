@@ -19,7 +19,12 @@
             text-align: center;
             color: #333;
         }
-        img {
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .image-container img {
             width: 30%;
             margin: 20px 0;
             border-radius: 8px;
@@ -37,9 +42,11 @@
 </head>
 <body>
     <h1>Praveen Prakesh</h1>
-    <img src="vamsi.JPG" alt="Image 1">
-    <img src="virat.jpg" alt="Image 2">
-    <img src="anu.jpg" alt="Image 3">
+    <div class="image-container">
+        <img src="vamsi.JPG" alt="Image 1">
+        <img src="virat.jpg" alt="Image 2">
+        <img src="anu.jpg" alt="Image 3">
+    </div>
     <iframe src="https://www.youtube.com/embed/0PtMeGd_eis?si=8jXCcG3XNjUoSWHP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe src="https://www.youtube.com/embed/jYfneI6lqpA?si=8zUEVMrFo7zyDWtV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe src="https://www.youtube.com/embed/wzEnR5rAbYE?si=30T90amzmWFFPZcC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
